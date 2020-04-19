@@ -1,0 +1,308 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Gotu', sans-serif;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+
+.home nav
+{
+	position: absolute;
+	z-index: 1;
+}
+.home .navbar-brand
+{
+	font-size: 30px;
+	color: red;
+}
+.nav-link 
+{
+	font-size: 20px;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+}
+.carousel-inner h1 .fas
+{
+color: red;
+}
+.carousel-inner h1{
+	font-size: 60px;
+
+}
+.carousel-inner h1 span{
+	font-size: 30px;
+
+}
+.carousel-inner h1 .int-let{
+	color: red;
+	font-size: 60px;
+
+}
+.carousel-inner p{
+	font-size: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.carousel-caption 
+{
+	bottom: 300px;
+}
+.about h1
+{
+	font-size: 50px;
+}
+.about img
+{
+	height: 70vh;
+	width: 100%
+
+	background-size: 100% 100%;
+}
+.about ul
+{
+	list-style: none;
+}
+.about .fas
+{
+	color: red;
+	font-size: 40px;
+}
+.about li
+{
+	font-size: 25px;
+}
+.about p
+{
+	font-size: 20px;
+	text-indent: 40px;
+}
+.servicePage .box i
+{
+	font-size: 70px;
+	color: red;
+	transition: width 2s;
+}
+.servicePage .box
+{
+	margin: 80px auto;
+
+}
+.servicePage h1
+{
+	padding-top: 30px;
+	color: white;
+	font-weight: bolder;
+	font-size: 50px;
+}
+.servicePage .container h2
+{
+	color: white;
+	font-size: 30px;
+}
+.servicePage .container p
+{
+	color: white;
+	font-size: 20px;
+}
+.servicePage .box i:hover {
+	color: white;
+	height: 80px;
+	width: 80px;
+}
+
+.galleryPage{
+	background: #fff;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:#000;
+	margin: 0;
+	padding: 0;
+}
+.swiper-container {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 400px;
+	height: 400px;
+
+}
+.galleryPage h1
+{
+	font-size: 50px;
+}
+.galleryPage a
+{
+	font-size: 20px;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	border: 2px solid black;
+	margin-left: 10px;
+
+}
+.galleryPage a:hover
+{
+	background-color: red;
+	color: white;
+	font-weight: bolder;
+}
+.clientPage h1
+{
+	font-size: 50px;
+
+}
+#quote-carousel {
+	padding: 0 10px 30px 10px;
+	margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+	background: none;
+	color: #CACACA;
+	font-size: 2.3em;
+	text-shadow: none;
+	margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+	position: relative;
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-top: 20px;
+	margin-right: -19px;
+
+}
+#quote-carousel .carousel-indicators li {
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	opacity: 0.4;
+	overflow: hidden;
+	transition: all .4s ease-in;
+	vertical-align: middle;
+	border: 5px solid red;
+
+}
+#quote-carousel .carousel-indicators .active {
+	width: 128px;
+	height: 128px;
+	opacity: 1;
+	transition: all .2s;
+}
+.item blockquote {
+	border-left: none;
+	margin: 0;
+}
+.item blockquote p:before {
+	content: "\f10d";
+	font-family: 'Fontawesome';
+	float: left;
+	margin-right: 10px;
+}
+.contactPage
+{
+	background: black;
+	height: 130vh;
+	width: 100%
+
+}
+.contactPage h1
+{
+	font-size: 50px;
+
+}
+.contactPage h2
+{
+	font-size: 30px;
+
+}
+.contactPage p
+{
+	font-size: 20px;
+
+}
+.contactPage iframe
+{
+	margin-top: 30px;
+	padding: 20px;
+	border: 4px solid red;
+}
+
+.contactPage form input
+{
+	border: 2px solid white;
+	font-size: 20px;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;
+	
+}
+.contactPage form textarea
+{
+	border: 2px solid white;
+	font-size: 20px;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;
+	
+}
+.contactPage form button
+{
+	border: 2px solid white;
+	font-size: 20px;
+	background-color: red;
+	color: white;
+	
+}
+.contactPage form input:hover
+{
+	border-color: red;
+}
+.contactPage form textarea:hover
+{
+	border-color: red;
+}
+.contactPage form button:hover
+{
+	font-weight: bolder;
+}
+.footerPage h1
+{
+	font-size: 30px;
+}
+.footerPage p
+{
+	font-size: 20px;
+}
+.footerPage button,input
+{
+	font-size: 20px;
+}
+.footerPage button
+{
+	background-color: black;
+	color: white;
+}
+.copyright p
+{
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
